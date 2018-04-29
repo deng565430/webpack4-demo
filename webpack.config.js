@@ -25,6 +25,12 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(vue|js|jsx|tsx)/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/,
+        enforce: 'pre'
+      },
+      {
         test: /\.js$/,
         use: "babel-loader",
         include: /src/, // 只转化src目录下的js
