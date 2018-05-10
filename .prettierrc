@@ -1,0 +1,13 @@
+{
+  "eslint.options": {
+    "configFile": "./.eslintrc"
+  },
+  "eslint.autoFixOnSave": false,
+  "tslint.autoFixOnSave": true,
+  "tslint.configFile": "./tslint.json",
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120
+}
